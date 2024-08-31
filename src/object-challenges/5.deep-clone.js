@@ -1,4 +1,6 @@
 const deepClone = (obj) => JSON.parse(JSON.stringify(obj));
+const deepCloneBuilt = (obj) => structuredClone(obj);
+
 
 // Example usage:
 const original = { name: 'John', details: { age: 30, city: 'New York' } };
